@@ -1,9 +1,10 @@
    body {
-     background-image: url('images/image.png');
-     background-size: cover;
-      /* Un color de ejemplo, puedes usar un nombre o RGB */
-    }
+     background-color: #FDF6EC;
 
+    }
+a[href^="#"] {
+  text-decoration:underline; border: 5px solid #343A40;
+}
 nav {
       display: flex;
       justify-content: center;
