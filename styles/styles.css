@@ -1,19 +1,32 @@
-   body {
-     background-color: #FDF6EC;
-
-    }
-a[href^="#"] {
-  text-decoration:underline; border: 5px solid #343A40;
+html {
+  position: relative;
 }
+
+body {
+    background-color: #FDF6EC;
+    margin-bottom: 40px;
+    }
+a {transition: background-color 1s;}
+a[href^=" "]{text-decoration:underline; border: 5px solid #343A40;} /*/Marca el enlace donde nos encontramos en este momento/*/
+
+footer {
+  position: absolute;
+  left: 0px;        /*/Mantiene el footer siempre en la parte de abajo/*/
+  width: 100%;
+  color: white;
+}
+
 nav {
       display: flex;
       justify-content: center;
       gap: 20px;
       padding: 0.5rem;
  }
+     nav a:hover {
+      background-color: rgba(191, 15, 76, 0.527);
+    }
 
 footer {
-
       color: black;
       text-align: center;
       padding: 1rem;
